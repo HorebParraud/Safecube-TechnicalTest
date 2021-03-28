@@ -1,0 +1,20 @@
+stages:
+    - unit_test
+
+test_revercegeocoding:
+  stage: unit_test
+  script:
+    - pytest test_revercegeocoding.py
+  allow_failure: false
+
+test_stop:
+  stage: unit_test
+  script:
+    - pytest test_stop.py
+  allow_failure: false
+
+test_trackpoint:
+  stage: unit_test
+  script:
+    - pytest test_trackpoint.py
+  allow_failure: false
