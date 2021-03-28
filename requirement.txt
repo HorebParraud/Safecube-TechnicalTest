@@ -1,0 +1,7 @@
+pycodestyle
+pytest
+coverage
+pytest-cov
+haversine<
+requests
+requests_oauthlib
